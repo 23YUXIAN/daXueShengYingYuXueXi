@@ -1,0 +1,161 @@
+@charset "utf-8";
+*{/* 清除浏览器的默认样式. */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(144, 163, 185, 0.5);
+}
+.bottom{
+   /*  border: 1px solid red; */
+}
+.bottom .left{
+    /* border: 1px solid red; */
+    width: 210px;
+    height: 300px;
+    position:fixed;
+	top:83px;
+	left: 100px;
+    background: #6994cc;
+    /* background: linear-gradient(-10deg,#5d8adf,#6288ce); */
+    box-shadow: 10px 10px 10px #385894;
+    border-radius: 30px;
+    padding: 20px;
+}
+.bottom .left p{
+    margin: 28px;
+    cursor: pointer;
+    box-shadow: 5px 5px 8px #8dace6;
+    border-radius: 4px;
+    background-color: white;
+    font-size: 22px;
+    padding: 2px;
+    text-align: center;
+}
+.bottom .right{
+    margin:30px;
+    margin-right: 100px;
+    padding: 30px;
+    /* border: 1px solid red; */
+    width: 900px;
+    /* height: 200px; */
+    position: absolute;
+    right: 0px;
+    background: #6994cc;
+    /* background: linear-gradient(-10deg,#5d8adf,#6288ce); */
+    box-shadow: 10px 10px 10px #385894;
+    border-radius: 30px;
+}
+.bottom .right .personal{
+padding-left: 200px;
+padding-top: 42px;
+padding-bottom: 42px;
+}
+.bottom .right .personal p{
+    height: 50px;
+    line-height: 50px;
+    font-size: 22px;
+}
+.bottom .right .word-book{
+    padding-left: 80px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    /* border: 1px solid red; */
+    }
+.bottom .right .word-book p{
+   /*  text-align: center; */
+   padding-left: 280px;
+}
+.bottom .right .word-book table{
+    width: 666px;
+}
+.bottom .right .word-book table tr td{
+  padding-left: 3px;
+}
+.bottom .right .word-book table .a{
+width: 60px;
+}
+.bottom .right .word-book table .b{
+    width: 266px;
+}
+.bottom .right .word-book table .c{
+       
+}
+.bottom .right .note .note-title p{
+    font-size: 23px;
+    background-color: white;
+    margin: 8px;
+    border-radius: 4px;
+    padding: 4px;
+    
+}
+.bottom .right .diary .diary-title p{
+    font-size: 23px;
+    background-color: white;
+    margin: 8px;
+    border-radius: 4px;
+    padding: 4px;
+    
+}
+.bottom .right  #title1,#title2{
+    font-size: 25px;
+    background-color: white;
+    margin: 8px;
+    border-radius: 4px;
+    padding: 4px;
+    
+}.bottom .right #content1,#content2{
+    font-size: 23px;
+    background-color: white;
+    margin: 8px;
+    border-radius: 4px;
+    padding: 4px;
+    
+}
+.bottom .right form label{
+    font-size: 23px;
+    margin-top: 8px;
+    }
+.bottom .right form .t1{
+        font-size: 18px;
+        line-height: 36px;
+        height: 36px;
+        width: 860px;
+        margin-top: 8px;
+    }
+.bottom .right form textarea{
+        width: 860px;
+     height: 300px;
+     resize: none;/* 限制拖动 */
+     overflow: auto;
+     margin-top: 8px;
+    }
+.bottom .right .button3，.button4{
+        display: block;
+        padding: 2px;
+        border: 1px solid rgb(241, 241, 245);
+        box-shadow: 5px 5px 8px #8dace6;
+        border-radius: 4px;
+        background-color: white;
+        width: 60px;
+        text-align: center;
+        font-size: 18px;
+        cursor: pointer; 
+        margin-top: 14px;  
+        margin-left: 780px;
+    }
+.bottom .right .word-book .write-book #write_w,#write_t{
+    height: 40px;
+    line-height: 40px;
+    font-size: 22px;
+}
+.button_all{
+    padding: 2px;
+    font-size: 16px;
+    border: 1px solid rgb(241, 241, 245);
+        box-shadow: 2px 2px 4px #8dace6;
+        border-radius: 4px;
+        background-color: white;
+}
+    

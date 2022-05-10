@@ -1,0 +1,191 @@
+@charset "utf-8";
+*{/* 清除浏览器的默认样式. */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(144, 163, 185, 0.5);
+}
+.bottom{
+    width: 1200px;
+    /* border: 1px solid red; */
+    margin:30px auto;
+    border-radius: 30px;
+    padding: 10px ;
+    background: #6994cc;
+    box-shadow: 0px 0px 8px #385894;
+}
+.bottom .bb{
+    /* height: 400px; */
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+.bottom .button{
+display: inline-block;
+padding: 8px;
+border: 1px solid rgb(241, 241, 245);
+box-shadow: 5px 5px 8px #8dace6;
+border-radius: 16px;
+background-color: white;
+width: 110px;
+text-align: center;
+font-size: 22px;
+margin-top: 160px;
+cursor: pointer;
+margin-bottom: 180px;
+}
+.bottom #share{
+    margin-left: 410px;
+}
+.bottom #admire{
+    margin-left: 100px;
+}
+.bottom .button1,.button2{
+    
+        display: block;
+        padding: 2px;
+        border: 1px solid rgb(241, 241, 245);
+        box-shadow: 5px 5px 8px #8dace6;
+        border-radius: 4px;
+        background-color: white;
+        width: 60px;
+        text-align: center;
+        font-size: 18px;
+        cursor: pointer;   
+}
+.bottom .share{
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    padding-left: 200px;
+}
+.bottom .share form label{
+font-size: 23px;
+margin-top: 8px;
+}
+.bottom .share form .t1{
+    font-size: 18px;
+    line-height: 36px;
+    height: 36px;
+    width: 860px;
+    margin-top: 8px;
+}
+.bottom .share form textarea{
+    width: 860px;
+ height: 300px;
+ resize: none;/* 限制拖动 */
+ overflow: auto;
+ margin-top: 8px;
+}
+.bottom .button1,.button3{
+    
+    display: block;
+    padding: 2px;
+    border: 1px solid rgb(241, 241, 245);
+    box-shadow: 5px 5px 8px #8dace6;
+    border-radius: 4px;
+    background-color: white;
+    width: 60px;
+    text-align: center;
+    font-size: 18px;
+    cursor: pointer; 
+    margin-top: 14px;  
+    margin-left: 780px;
+}
+.bottom #come-back2{
+    margin-bottom: 10px;
+}
+.bottom .admire .topic-name{
+    /* padding: 5px; */
+    margin-left: 80px;
+    font-size: 20px;
+   /*  border: 1px solid red ; */
+    box-shadow: 5px 5px 8px #8dace6;
+    border-radius: 4px;
+    background-color: white;
+    height: 50px;
+    line-height:50px;
+    cursor: pointer;
+    width: 980px;
+    display: inline-block;
+    margin-bottom: 10px;
+    
+}
+.bottom .admire .topic-name p{
+    height: 50px;
+    line-height:50px;
+}
+.bottom .admire .topic-name .tn{
+    display: inline-block;
+    /* padding: 1px; */
+    font-size: 20x;
+text-align: left;
+/* box-shadow: 5px 5px 8px #8dace6;
+    border-radius: 4px;
+    background-color: white; */
+    height: 50px;
+    line-height:50px;
+    /* border: 1px solid red; */
+    position: relative;
+    top: 0px; 
+}
+.bottom .admire .good{
+    /* display: inline-block; */
+    /* padding: 1px; */
+    font-size: 18px;
+text-align: right;
+/* box-shadow: 5px 5px 8px #8dace6;
+    border-radius: 4px;
+    background-color: white; */
+    height: 50px;
+    line-height:50px;
+    /* border: 1px solid red; */
+    position: relative;
+    top: 0px; 
+    float: right;
+    padding-right: 2px;
+    
+}
+.bottom .admire img{
+    /* margin-top: 8px; */
+height: 50px;
+width: auto;
+float: right;
+
+
+/* position: relative;
+margin-top: 4px; */
+}
+.bottom .admire-main #result-topic{
+   /*  border: 1px solid red; */
+    font-size: 25px;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.bottom .admire-main .p2{
+    /* border: 1px solid red; */
+    font-size: 16px;
+    padding-left: 180px;
+    padding-right:160px;
+    margin: 5px 0px;
+    color:  aliceblue;;
+}
+.bottom .admire-main .s2{
+    float: right;
+}
+.bottom .admire-main .p3{
+    /* border: 1px solid red; */
+    font-size: 20px;
+    text-indent: 40px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    background-color: white;
+    width: 900px;
+    margin-left: 160px;
+    border-radius: 14px;
+}
+
+
+

@@ -1,0 +1,153 @@
+@charset "utf-8";
+*{/* 清除浏览器的默认样式. */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.top-bg{
+    /* border: 1px solid rgb(3, 124, 57); */
+    background-color: #a1bbeb; 
+    box-shadow: 0px 3px 10px #4a6699;
+    height: 53px;
+}
+.fixed{
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index: 10;
+}
+/*整个导航条设置宽高居中*/
+.navigation{
+    /* background-color: #a1bbeb; */
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    width: 1200px;
+    height: 53px;
+    
+}
+/*给四大模块统一设置高度 垂直居中 上下外边框*/
+.logo,nav,.search-box,.top-right{
+    height: 44px;
+    line-height: 44px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    vertical-align:middle;
+    /* border: 1px solid red; */
+   
+}
+/*logo*/
+.logo{
+    width: 130px;
+    display: inline-block;
+    float: left;
+}
+/* 主要效果：图片溢出时隐藏 */
+.logo img{
+    /* border: 1px solid red; */
+    width: 128px;
+    height: 42px;
+    overflow: hidden;
+}
+/*导航条链接*/
+nav{
+    width: 600px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: inline-block;
+}
+/* 主要效果：子元素均等分布 当鼠标移上去时 字体放大 背景变白  */
+nav ul{
+    width: 600px;
+}
+nav ul li{
+    /* border: 1px solid rgb(255, 0, 0); */
+    width: 19.3%;
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    transition: all 0.3s ease-in-out;/*变换过度开头结尾都很快*/
+}
+nav ul li:hover{
+    transform: scale(1.1,1.1);
+}
+nav ul li a:hover{
+    padding: 6px 5px;
+    border-radius: 5px;
+    background-color:white;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000000;
+}
+/*搜索框*/
+.search-box{
+
+    margin-right: 20px;
+    width: 200px;
+    display: inline-block;
+    /* */
+}
+/* 主要效果：各靠一边 图标放上去有放大效果  */
+.search-box input{
+    margin-top: 10px;
+    border: 1px solid #272626;
+    border-radius: 3px;
+    width: 154px;
+    height: 27px;
+    display: inline-block;
+    float: left;
+}
+.search-box #searching{
+    margin-top: 10px;
+    background-color: white;
+    border: 1px solid #272626;
+    border-radius: 3px;
+    display: inline-block;
+    width: 44px;
+    height: 27px;
+    cursor: pointer;
+    overflow: hidden;
+    float: right;
+    padding-left: 2px;
+    padding-right: 2px; 
+    transition: all 0.1s ease-in-out;/*变换过度开头结尾都很快*/
+}
+.search-box #searching:hover{
+    transform: scale(1.1,1.1);
+}
+/*登陆注册*/
+.top-right{
+    width: 180px;
+    display: inline-block;
+    float: right;
+    
+}
+/* 主要效果：居中 鼠标移上去时放大  */
+.top-right a{
+    text-decoration: none;
+    color: #000000;
+    transition: all 0.2s ease-in-out;
+}
+.top-right a:hover{
+    transform: scale(1.05,1.05);
+}
+.top-right .login{
+    display: inline-block;
+    margin-left: 45px;
+    margin-right: 3px;
+    /* border: 1px solid red; */
+}
+.top-right .registration{
+    display: inline-block;
+    margin-right: 45px;
+    margin-left: 3px;
+    /* border: 1px solid red; */
+    } 
+.top-right .me a{
+    text-decoration: none;
+    position: relative;
+    left: 50%;
+    /* border: 1px solid red; */
+
+}

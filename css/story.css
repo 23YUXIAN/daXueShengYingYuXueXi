@@ -1,0 +1,129 @@
+@charset "utf-8";
+*{/* 清除浏览器的默认样式. */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(144, 163, 185, 0.5);
+}
+.bottom{
+    width: 1200px;
+  /*   border: 1px solid red; */
+    margin:30px auto;
+    border-radius: 30px;
+    padding: 10px ;
+    background: #6994cc;
+    box-shadow: 0px 0px 8px #385894;
+}
+.bottom audio{
+   background-color: white;
+   border-radius: 8px;
+}
+.bottom .s1{
+display: inline-block;
+padding: 8px;
+margin: 5px 5px;
+border: 1px solid rgb(241, 241, 245);
+box-shadow: 5px 5px 8px #8dace6;
+border-radius: 14px;
+background-color: white;
+width: 90px;
+font-size: 18px;
+text-align: center;
+}
+.bottom .b1{
+    padding: 4px;
+    border-radius: 6px;
+    background-color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+.bottom .select-theme .story_name{
+    width: 600px;
+    font-size:18px;
+    padding: 4px;
+    height: 40px;
+    margin: 4px 2px;
+}
+.bottom .select-theme .original p{
+    padding: 8px;
+    /* margin-bottom: 8px; */
+    font-size:24px;
+    text-indent: 48px;
+    line-height: 42px;
+    /* border: 1px solid red; */
+}
+.bottom .select-theme .original .sname{
+    
+    font-size:18px;
+    padding: 4px;
+    height: 40px;
+    margin: opx auto;
+    text-align: center;
+    font-size: 46px;
+    color: aliceblue;
+    /* border: 1px solid red; */
+}
+.bottom .select-theme #start{
+    text-align: center;
+    width: 120px;
+    display: block;
+    margin:0 auto;
+    margin-bottom: 20px;
+   /*  border: 1px solid red; */
+   /* border: 1px solid rgb(241, 241, 245); */
+box-shadow: 5px 5px 8px #8dace6;
+}
+
+.bottom .retell #come_back{
+  display: block;
+    float: right; 
+    margin-right: 6px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    /* border: 1px solid red; */
+}
+.bottom  .retell p{
+    text-align: center;
+font-size: 46px;
+color: aliceblue;
+/* border: 1px solid red; */
+margin: 5px auto;
+}
+.bottom .retell label{
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 4px;
+    margin-bottom: px;
+    /* border: 1px solid red; */
+}
+.bottom .retell input{
+    width: 40px;
+    height: 24px;
+    margin-right: 2px;
+}
+.bottom .retell #user_story{
+ width: 1100px;
+ height: 300px;
+ resize: none;/* 限制拖动 */
+ overflow: auto;
+}
+.retell #over{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding: 3px;
+    /* border: 1px solid red; */
+}
+.retell .result{
+    margin-left: 600px;
+    /* border: 1px solid red; */
+}
+.bottom .retell .result span{
+    font-size: 20px;
+    color: red;
+}
+.bottom .retell #user_story{
+    font-size: 18px;
+}

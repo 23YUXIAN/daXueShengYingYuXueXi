@@ -1,0 +1,196 @@
+@charset "utf-8";
+*{/* 清除浏览器的默认样式. */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(144, 163, 185, 0.5);
+}
+.fixed{
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index: 10;
+}
+.bottom{
+    width: 1200px;
+    /* border: 1px solid red; */
+    margin:30px auto;
+    /* margin-top: 30px; */
+    border-radius: 30px;
+    padding: 5px 5px 5px 5px ;
+    background: #6994cc;
+    box-shadow: 0px 0px 8px #385894;
+}
+
+.start_select{
+    /* border: 1px solid red ; */
+    padding: 15px;
+}
+.select_icon{
+display: block;
+padding: 4px;
+border: 1px solid rgb(241, 241, 245);
+box-shadow: 5px 5px 8px #8dace6;
+border-radius: 14px;
+background-color: white;
+width: 90px;
+margin-left: 200px;
+font-size: 18px;
+}
+.start_select .theme{
+    margin-left: 220px;
+    /* border: 1px solid red; */
+    margin-bottom: 10px;
+}
+ .start_select .theme a{
+/* display: inline-block; */
+/* border: 1px solid red; */
+color: rgb(12, 11, 11);
+font-size: 18px;
+text-decoration: none;
+display: inline-block;
+margin: 3px;
+transition: all 0.1s ease-in-out;
+text-align: left;
+}
+ .start_select .theme a:hover{
+    transform: scale(1.1,1.1);
+        border-radius: 5px;
+        background-color:white;
+}
+/* .start_select .theme a:visited{
+    color: rgb(74, 4, 131);
+} */
+.start_select .scene{
+    text-align: left;
+    /* border: 1px solid red; */
+    margin-left: 220px;
+    margin-bottom: 10px;
+}
+.start_select .scene a{
+    /* display: inline-block; */
+    /* border: 1px solid red; */
+    color: rgb(12, 11, 11);
+    font-size: 18px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 3px;
+    text-align: left;
+    transition: all 0.3s ease-in-out;
+    }
+.start_select .scene a:hover{
+        transform: scale(1.1,1.1);
+            border-radius: 5px;
+            background-color:white;
+    }
+    /* .left .start_select .scene a::after{
+        content: "√";
+        width: 80px;
+        border-radius: 50%;
+        color: white;
+    } */
+
+.start_select .start_chat_button{
+        padding: 4px;
+        border: 1px solid rgb(241, 241, 245);
+        box-shadow: 5px 5px 8px #8dace6;
+        border-radius: 14px;
+        background-color: white;
+        font-size: 18px;
+        width: 90px;
+        margin-left: 200px;
+        cursor: pointer;
+        transition: all 0.1s ease-in-out;
+    }
+.start_select .start_chat_button{
+        transform: scale(1.1,1.1);
+    }
+.chat{
+    padding: 15px;
+}
+.chat .come_back{
+        padding: 1px;
+        border: 1px solid rgb(241, 241, 245);
+       /*  box-shadow: 5px 5px 8px #8dace6; */
+        border-radius: 12px;
+        background-color: white;
+        font-size: 16px;
+        width:50px;
+        cursor: pointer;
+        transition: all 0.1s ease-in-out;
+        margin-left: 0px;
+        /* border: 1px solid red; */
+        
+    }
+.chat .come_back:hover{
+        transform: scale(1.1,1.1);
+        
+    }
+.chat #scenename{
+
+text-align: center;
+font-size: 46px;
+color: aliceblue;
+
+margin: 5px auto;
+/* border: 1px solid red; */
+
+}
+.chat .character-name{
+    color: aliceblue;
+    text-align: left;
+    font-size: 35px;
+    font-weight: 900;
+}
+.chat .original-text p{
+    margin-bottom: 5px;
+    font-size:22px;
+}
+.chat  #start_chat_box{
+    padding: 1px;
+    border: 1px solid rgb(241, 241, 245);
+    border-radius: 12px;
+    background-color: white;
+    font-size: 16px;
+    width:100px;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+    text-align: center;
+    float: right;
+    margin-right: 0px;
+    /* border: 1px solid red; */
+    
+}
+.chat #start_chat_box:hover{
+    transform: scale(1.1,1.1);
+}
+
+.chat .chat-box #come_back_text{
+    margin-bottom: 20px;
+    float: right;
+    width: 80px;
+}
+.chat .chat-box #character1,#character2{
+    color: aliceblue;
+    font-size: 35px;
+    font-weight: 900;
+}
+.chat .chat-box #user_text2,#chat_text1{
+    width: 950px;
+    font-size:20px;
+}
+.chat .chat-box .result{
+    display: block;
+    /* border: 1px solid red; */
+    margin-top: 30px;
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: 800;
+}
+.chat .chat-box #chat_result{
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: 800;
+}

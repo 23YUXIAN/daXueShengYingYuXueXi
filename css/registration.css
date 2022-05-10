@@ -1,0 +1,72 @@
+@charset "utf-8";
+*{/* 清除浏览器的默认样式. */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(144, 163, 185, 0.5);
+}
+.registration-box{
+    /* border: 1px solid red; */
+    width: 650px;
+    height: 450px;
+    margin: 80px auto;
+    background: #6994cc;
+    /* background: linear-gradient(-10deg,#5d8adf,#6288ce); */
+    box-shadow: 10px 10px 10px #385894;
+    border-radius: 30px;
+}
+.registration-box form{
+    position: relative;
+    top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+   /*  border: 1px solid red; */
+    width: 450px;
+    height: 350px;
+}
+.registration-box label{
+    font-size: 20px;
+    font-weight: 300;
+    margin-left: 50px;
+}
+.registration-box form input{
+    outline: none;
+    background-color: #c8d3e9;
+    border: none;
+    border-radius: 5px;
+    width: 210px;
+    height: 35px;
+    margin: 30px 50px 10px 50px;
+    /* border: 1px solid red; */
+}
+.registration-box form #password1{
+    margin-left: 9px;
+}
+.registration-box .tishi{
+    color: red;
+    font-size: 14px;
+    text-align: center;
+   /*  border: 1px solid red; */
+    margin-left: 140px;
+}
+.registration-box .zhuce{
+    border-radius: 18px;
+    margin: 35px 100px 10px 180px;
+    width: 100px;
+    height: 44px;
+    cursor: pointer;
+    font-size: 22px;
+    color: rgb(24, 24, 24);
+}
+.registration-box a{
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    margin-top: 50px;
+    width: 180px;
+    /* border: 1px solid red; */
+    float: right;
+    
+}
